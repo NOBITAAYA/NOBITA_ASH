@@ -21,7 +21,7 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑")
+        altron = await e.reply(f"😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
         await altron.edit(f"𝐊ʏα 𝐎яƉɛя 𝐇αι 𝐌αяɛ [𝐌αƨтɛя](https://t.me/its_innocent_boy2926)")
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sstop(?: |$)(.*)" % hl))
 async def stop(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`𝚂𝚃𝙾𝙿𝙸𝙽𝙶 👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑 ʙᴏᴛ...`")
+        await e.reply(f"`𝚂𝚃𝙾𝙿𝙸𝙽𝙶 😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈 ʙᴏᴛ...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __ᴀᴅᴅɪɴɢ 👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑 ʙᴏᴛ sᴜᴅᴏ....__")
+        ok = await event.reply(f"» __ᴀᴅᴅɪɴɢ 😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈 ʙᴏᴛ sᴜᴅᴏ....__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,13 +117,13 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ 👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑 ʙᴏᴛ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
+            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ 😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈 ʙᴏᴛ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ᴡᴀɪᴛ ᴋᴀʀ ʙʜᴀɪ 👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑 ʙᴏᴛ sᴜʀᴜ ʜᴏ ʀʜᴀ ʜᴀɪ...`")
+            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ᴡᴀɪᴛ ᴋᴀʀ ʙʜᴀɪ 😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈 ʙᴏᴛ sᴜʀᴜ ʜᴏ ʀʜᴀ ʜᴀɪ...`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
@@ -180,9 +180,9 @@ async def removesudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 async def show_sudo_users(event):
     if event.sender_id == OWNER_ID:
-        sudo_users_list = "👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
+        sudo_users_list = "😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
         for user_id in SUDO_USERS:
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 👑😈𝔸𝔽𝕂 𝕏 𝔽𝕌ℂ𝕂𝔼ℝ😈👑 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈 𝗢𝗪𝗡𝗘𝗥.")
