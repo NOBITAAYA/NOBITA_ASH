@@ -5,8 +5,8 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline(" 𝐌ᴜsɪᴄ ", "https://t.me/HINATA_N_BOT"),
-        Button.url("𝐎ᴡɴᴇʀ", "https://t.me/its_innocent_boy_2926")
+        Button.inline(" 𝐌ᴜsɪᴄ ", "https://t.me/@INNOCENT_MUSICBOT"),
+        Button.url("𝐎ᴡɴᴇʀ", "https://t.me/@MR_PERFECT_BOSS_01")
     ],
     [
         Button.url(" 𝐂н𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/THE_FUCKING_BOT_2926"),
@@ -42,7 +42,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/d57877136da61e391eaec.jpg",
+                    "https://telegra.ph//file/e50d1a0049c5f9b5abb1c.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
 )
