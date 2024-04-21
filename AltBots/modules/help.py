@@ -18,9 +18,6 @@ HELP_BUTTON = [
       Button.url(" 𝐂ʜᴀɴɴᴇʟ ", "https://t.me/THE_FUCKING_BOT_2926"),
       Button.url("𝐒ᴜᴘᴘᴏʀᴛ ", "https://t.me/+ab67YT7QKrYyNDU1")
     ]
-    [
-      Button.url("MUSIC ", "https://t.me/@INNOCENT_MUSICBOT")
-    ],
   ]
 
 
