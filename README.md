@@ -29,4 +29,8 @@
 </details>
 <SUMMARY><b>TELEGRAM ID </b></SUMMARY>
 <br>
-<a hearf ="@JUST_ME_NOBITA"><img src="https://telegra.ph/file/304ea1771bb6fa225e1bd.jpg">
+
+<a hearf ="@JUST_ME_NOBITA">
+</a>
+
+</details>
