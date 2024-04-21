@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"_⚡️RESTRICTED 𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥 𝗙𝗨𝗖𝗞𝗜𝗡𝗚 𝗠𝗢𝗗 𝗢𝗡⚡️_")
+        altron = await e.reply(f"_⚡️𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥 𝗙𝗨𝗖𝗞𝗜𝗡𝗚 𝗠𝗢𝗗 𝗢𝗡⚡️_")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"_⚡️RESTRICTED 𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥 𝗙𝗨𝗖𝗞𝗜𝗡𝗚 𝗠𝗢𝗗 𝗢𝗡⚡️_ [𝐌αƨтɛя](https://t.me/@MR_PERFECT_BOSS_01)",mp)
+        await altron.edit(f"_🥀 🫧🇳 🇴 B I T A 🥀 ",mp)
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sstop(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sstop(?: |$)(.*)" % hl))
 async def stop(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`𝚂𝚃𝙾𝙿𝙸𝙽𝙶_⚡️RESTRICTED GANGSTER SPAM⚡️_ʙᴏᴛ...`")
+        await e.reply(f"`REBOOT PROSESS START 😒😒...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,8 +99,8 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __ᴀᴅᴅɪɴɢ _⚡️RESTRICTED GANGSTER SPAM⚡️_ ʙᴏᴛ sᴜᴅᴏ....__")
-        target = ""
+        ok = await event.reply(f"» __🫧🇳 🇴 B I T A NEW BABBY is HEAR....__")
+        target = "" 
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
         else:
@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ _⚡️RESTRICTED GANGSTER SPAM⚡️_ ʙᴏᴛ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
+            await ok.edit(f"THE USER IS IN 🫧🇳 🇴 B I T A ARMY !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» 𝗔ʋκααт Μαι Янσ βɛωακʋғ")
+        await event.reply("» APNI AVKAT ME RAHA KARO BEVKOOF KAHINKE ")
 
 
 
@@ -168,7 +168,7 @@ async def removesudo(event):
             await ok.edit(f"Removed sudo user: `{target}`")
             heroku_var["SUDO_USERS"] = new_sudo_users
     else:
-        await event.reply("𝗢𝗡𝗟𝗬 𝗢𝗪𝗡𝗘𝗥 𝗖𝗔𝗡 𝗥𝗘𝗠𝗢𝗩𝗘 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦.")
+        await event.reply("𝗢𝗡𝗟𝗬 🫧🇳 🇴 B I T A BOT 𝗢𝗪𝗡𝗘𝗥 𝗖𝗔𝗡 𝗥𝗘𝗠𝗢𝗩𝗘 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦.")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
@@ -182,9 +182,9 @@ async def removesudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 async def show_sudo_users(event):
     if event.sender_id == OWNER_ID:
-        sudo_users_list = "_⚡️RESTRICTED GANGSTER SPAM⚡️_ 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
+        sudo_users_list = "_🫧🇳 🇴 B I T A_ 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
         for user_id in SUDO_USERS:
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 _⚡️RESTRICTED GANGSTER SPAM⚡️_ 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 _🫧🇳 🇴 B I T A_ 𝗢𝗪𝗡𝗘𝗥.")
