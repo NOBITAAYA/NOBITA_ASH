@@ -10,7 +10,7 @@ START_BUTTON = [
     ],
     [
         Button.url(" 𝐂н𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/THE_FUCKING_BOT_2926"),
-        Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/+ab67YT7QKrYyNDU1")
+        Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/restricted_0P")
     ],
     [
         Button.url("𝐑ᴇᴘᴏ ", "github.com/nakuldkdhacker0026/AXSPAMBOT"),
