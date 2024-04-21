@@ -26,10 +26,8 @@
 
 <a href="https://t.me/MRITYUY"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-</details>
-<SUMMARY><b>TELEGRAM ID </b></SUMMARY>
+<SUMMARY><b>TELEGRAM ID @JUST_ME_NOBITA</b></SUMMARY>
 <br>
-
 <a hearf ="@JUST_ME_NOBITA">
 </a>
 
